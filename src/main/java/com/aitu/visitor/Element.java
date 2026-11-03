@@ -1,4 +1,5 @@
 package com.aitu.visitor;
 
-public class Element {
+public interface Element {
+    void accept(Visitor visitor);
 }
